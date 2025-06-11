@@ -1,0 +1,192 @@
+#section10{
+    display: flex;
+width: 1468px;
+padding: 0px 20px 20px 20px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+.cta{
+    display: flex;
+padding: 54px 0px 34px 0px;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+border-radius: 32px;
+background: var(--Gradient, linear-gradient(180deg, #1DAA7E 0%, #1A8463 100%));
+
+/* Drop shadow/Medium */
+box-shadow: 0px 6px 15px -2px rgba(16, 24, 40, 0.08), 0px 6px 15px -2px rgba(16, 24, 40, 0.08);
+position: relative;
+}
+.footer{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 44px;
+}
+.levelup{
+    display: flex;
+width: 1440px;
+justify-content: center;
+align-items: flex-start;
+gap: 32px;
+}
+.roll{
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 32px;
+text-wrap: nowrap;
+overflow: hidden;
+
+}
+.roll p{
+    color: var(--Base-Base-White, #FAFAFA);
+font-family: Nohemi;
+font-size: 82px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 98.4px */
+}
+.addpluscopy{
+    display: flex;
+width: 1216px;
+flex-direction: column;
+align-items: flex-start;
+gap: 54px;
+}
+.additional{
+    display: flex;
+align-items: flex-start;
+gap: 91px;
+align-self: stretch;
+}
+.contact{
+    display: flex;
+width: 419px;
+flex-direction: column;
+align-items: flex-start;
+gap: 42px;
+}
+.contact p{
+    align-self: stretch;
+    color: var(--Base-Base-White, #FAFAFA);
+text-align: justify;
+
+/* Skillshikshya - 1/Desktop/Body/Highlight Emphasis */
+font-family: Outfit;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.addresses{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+}
+.addresses .call{
+    color: var(--Base-Base-White, #FAFAFA);
+text-align: center;
+
+/* Skillshikshya - 1/Desktop/Body/Highlight Accent */
+font-family: Outfit;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.addresses span{
+    color: var(--Base-Base-White, #FAFAFA);
+
+/* Skillshikshya - 1/Desktop/Body/Highlight Standard */
+font-family: Outfit;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.sankha{
+    color: var(--Base-Base-White, #FAFAFA);
+text-align: center;
+
+/* Skillshikshya - 1/Desktop/Body/Highlight Standard */
+font-family: Outfit;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.compan{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+}
+.compan p{
+    color: var(--Base-Base-White, #FAFAFA);
+text-align: center;
+
+/* Skillshikshya - 1/Desktop/Body/Highlight Bold */
+font-family: Outfit;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.qlinks{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+}
+.qlinks a{
+    color: var(--Base-Base-White, #FAFAFA);
+text-align: center;
+
+/* Skillshikshya - 1/Desktop/Body/Highlight Standard */
+font-family: Outfit;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+}
+.smicon{
+    display: flex;
+align-items: flex-start;
+gap: 24px;
+align-self: stretch;
+}
+.copyright{
+    color: var(--Base-Base-White, #FAFAFA);
+text-align: center;
+
+/* Skillshikshya - 1/Desktop/Body/Content Regular */
+font-family: Outfit;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.copyright span{
+    color: var(--Base-Base-White, #FAFAFA);
+
+/* Skillshikshya - 1/Desktop/Body/Content Bold */
+font-family: Outfit;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.levelup{
+   
+    animation: slideCourses 10s linear infinite;
+}
+.roll{
+     overflow: visible;
+}

@@ -1,0 +1,81 @@
+#section5{
+    display: flex;
+padding: 60px 0px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+.partner{
+ display: flex;
+width: 1468px;
+flex-direction: column;
+align-items: center;
+gap: 42px;
+
+}
+.par1 p{
+    color: var(--Base-Base-Black, #2B2B2B);
+text-align: center;
+
+/* Skillshikshya - 1/Desktop/Body/Hero Accent */
+font-family: Outfit;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.par1 span{
+    color: var(--Primary-Primary500, #1DA077);
+font-family: Nohemi;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%;
+}
+.par2{
+ display: flex;
+width: 1212.885px;
+padding: 20px;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+.company{
+    display: flex;
+align-items: center;
+gap: 38.654px;
+}
+
+.rectangle{
+    width: 292px;
+height: 200px;
+flex-shrink: 0;
+background: #FAFAFA;
+filter: blur(40px);
+position: absolute;
+bottom: -290px;
+    left: -240px;
+
+}
+.rectangle1{
+        width: 155px;
+height: 200px;
+flex-shrink: 0;
+background: #FAFAFA;
+filter: blur(40px);
+position: absolute;
+bottom: -350px;
+    left: 1200px;
+}
+.company img:hover{
+filter: brightness(500%);
+transition: ease;
+transition-duration: 0.5s;
+
+/* filter: contrast(100%); */
+}
+.google{
+    height: 25px;
+    width: 80px;
+}

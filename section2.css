@@ -1,0 +1,83 @@
+#section2{
+    display: flex;
+width: 1468px;
+padding: 120px 112px 60px 112px;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+background: var(--Base-Base-White, #FAFAFA);
+}
+.gallary{
+    display: flex;
+height: 499px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 48px;
+align-self: stretch;
+}
+.st{
+    display: flex;
+width: 650px;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+flex: 1 0 0;
+}
+.st1 span{
+    color: var(--Primary-Primary500, #1DA077);
+
+/* Skillshikshya - 1/Mobile/Headings/Display 1 */
+font-family: Nohemi;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 52.8px */
+}
+.st1 p{
+    color: var(--Base-Base-Black, #2B2B2B);
+
+/* Skillshikshya - 1/Mobile/Headings/Display 1 */
+font-family: Nohemi;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%;
+}
+.st2{
+    align-self: stretch;
+    color: var(--Black-Black900, #414141);
+text-align: center;
+
+/* Skillshikshya - 1/Desktop/Body/Feature Standard */
+font-family: Outfit;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.g1{
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 38.8px;
+align-self: stretch;
+}
+
+.img{
+      width: 279px;
+height: 364px;
+  
+}
+.g1  img{
+
+flex-shrink: 0;
+
+}
+.img video{
+    z-index: 11;
+    position: absolute; height: 357px; width: 230px; top:0.1px; left: 0; object-fit: fill; align-self: stretch; opacity: 0;
+}
+.img video:hover{
+    opacity: 1;
+}

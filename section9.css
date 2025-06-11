@@ -1,0 +1,168 @@
+#section9{
+    display: flex;
+width: 1468px;
+padding: 60px 112px 120px 112px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+.skillstory{
+    display: flex;
+width: 1216px;
+height: 804px;
+flex-direction: column;
+align-items: flex-start;
+gap: 38px;
+}
+.sscard{
+    display: flex;
+align-items: flex-start;
+gap: 32px;
+align-self: stretch;
+
+}
+.coding {
+    width: 696px;
+height: 679px;
+border-radius: 32px;
+}
+.coding{
+width: 696px;
+height: 680px;
+flex-shrink: 0;
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 60.19%, #000 100%), url('./Images/image\ \(7\).png') lightgray 50% / cover no-repeat;
+position: relative;
+transition: filter ease-in-out 1s ;
+
+}
+
+.coding:hover{
+filter: brightness(60%);
+
+}
+.uiux:hover{
+filter: brightness(60%);
+
+}
+.frontend:hover{
+filter: brightness(60%);
+
+}
+.coding1{
+    animation: none;
+}
+.coding1{
+    display: flex;
+width: 614px;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-start;
+gap: 14px;
+position: absolute;
+top: 465px;
+left: 41px;
+}
+.greencode{
+    display: flex;
+padding: 5px 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 5px;
+background: var(--Primary-Primary500, #1DA077);
+}
+.greencode p{
+color: var(--Base-Base-White, #FAFAFA);
+
+/* Skillshikshya - 1/Desktop/Body/Content Accent */
+font-family: Outfit;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.coding1 h3{
+    align-self: stretch;
+    color: #FFF;
+
+/* Skillshikshya - 1/Desktop/Headings/Heading 4 */
+font-family: Outfit;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.details{
+    display: flex;
+align-items: center;
+gap: 12px;
+}
+.details img{
+    width: 48px;
+height: 48px;
+border-radius: 1000px;
+
+}
+.dname{
+display: flex;
+align-items: center;
+gap: 5px;
+}
+.dname p{
+    color: #FFF;
+
+/* Skillshikshya - 1/Desktop/Body/Caption Regular */
+font-family: Outfit;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.date{
+    display: flex;
+align-items: flex-start;
+gap: 4px;
+}
+.date p{
+    color: #FFF;
+
+/* Skillshikshya - 1/Desktop/Body/Caption Regular */
+font-family: Outfit;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.date img{
+    width: 20px;
+height: 20px;
+}
+.design{
+    display: flex;
+width: 488px;
+flex-direction: column;
+align-items: flex-start;
+gap: 32px;
+position: relative;
+transition: filter ease-in-out 1s ;
+}
+.uiux{
+    width: 488px;
+height: 323px;
+border-radius: 32px;
+flex-shrink: 0;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url('./Images/image 29.png') lightgray 50% / cover no-repeat;
+position: relative;
+transition: filter ease-in-out 1s ;
+}
+.frontend{
+        width: 488px;
+height: 323px;
+border-radius: 32px;
+flex-shrink: 0;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url('./Images/image (8).png') lightgray 50% / cover no-repeat;
+position: relative;
+transition: filter ease-in-out 1s ;
+
+}

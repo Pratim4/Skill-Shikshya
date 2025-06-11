@@ -1,0 +1,228 @@
+#section4{ 
+    display: flex;
+width: 1468px;
+padding: 60px 112px;
+/* margin-bottom: 50px; */
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+}
+.trending{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 48px;
+align-self: stretch;
+}
+.trending1{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+}
+.t11{
+    color: var(--Black-Black900, #414141);
+
+/* Skillshikshya - 1/Desktop/Body/Feature Standard */
+font-family: Outfit;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.t12{
+    color: var(--Base-Base-Black, #2B2B2B);
+
+/* Skillshikshya - 1/Mobile/Headings/Display 3 */
+font-family: Nohemi;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 38.4px */
+}
+.t12 span{
+    color: var(--Primary-Primary500, #1DA077);
+
+/* Skillshikshya - 1/Mobile/Headings/Display 3 */
+font-family: Nohemi;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%;
+}
+.trending2{
+    display: flex;
+width: 1250px;
+justify-content: center;
+align-items: flex-start;
+gap: 32px;
+}
+.t21{
+    position: relative;
+    width: 592px;
+height: 461px;
+flex-shrink: 0;
+border-radius: 32px;
+background: var(--Secondary-Secondary500, #C33241);
+}
+.vac{
+    display: inline-flex;
+align-items: flex-end;
+gap: 8px;
+position: absolute;
+top: 40px;
+right:38px ;
+}
+.vac p{
+    color: var(--Secondary-Secondary50, #F9EBEC);
+text-align: center;
+font-family: Outfit;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.course-icon{
+ display: inline-flex;
+align-items: center;
+gap: 12px;
+position: absolute;
+top: 126px;
+left: 66px;
+right: 66.48px;
+bottom: 241.64px;
+
+}
+.allcourse{
+    display: inline-flex;
+align-items: center;
+gap: 24px;
+position: absolute;
+top: 283px;
+right: 75px;
+}
+.ac1{
+    display: flex;
+width: 218px;
+flex-direction: column;
+align-items: flex-start;
+gap: 12px;
+
+}
+.n23 p{
+    width: 200px;
+height: 138px;
+color: var(--Secondary-Secondary50, #F9EBEC);
+text-align: center;
+font-family: Nohemi;
+font-size: 150px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%;
+}
+.plas{
+    color: #FFF;
+text-align: center;
+font-family: Nohemi;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%;
+position: absolute;
+top: 275px;
+right: 296px;
+ /* 76.8px */
+}
+.ac1 h3{
+    color: var(--Secondary-Secondary50, #F9EBEC);
+text-align: center;
+
+/* Skillshikshya - 1/Desktop/Headings/Heading 4 */
+font-family: Outfit;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.ac1 p{
+    align-self: stretch;
+    color: var(--Secondary-Secondary50, #F9EBEC);
+
+/* Skillshikshya - 1/Desktop/Body/Highlight Standard */
+font-family: Outfit;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.t22{
+       position: relative;
+    width: 300px;
+height: 461px;
+padding-left: 45px;
+
+flex-shrink: 0;
+border-radius: 32px;
+background-color:  #F9EBEC;
+}
+.uc{
+    display: inline-flex;
+    padding-top: 77px;
+
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 70px;
+}
+.uc1{
+    display: flex;
+width: 218px;
+transform: rotate(-90deg);
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 12px;
+}
+.uc2{
+    color: var(--Secondary-Secondary500, #C33241);
+text-align: center;
+font-family: Nohemi;
+font-size: 150px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 180px */
+}
+.uc1 h3{
+    align-self: stretch;
+    color: var(--Secondary-Secondary500, #C33241);
+
+/* Skillshikshya - 1/Desktop/Headings/Heading 4 */
+font-family: Outfit;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.uc1 p{
+    align-self: stretch;
+    color: var(--Secondary-Secondary500, #C33241);
+
+/* Skillshikshya - 1/Desktop/Body/Highlight Standard */
+font-family: Outfit;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.fplas{
+    position: absolute; top: 259px; right: 18px ;
+    color: var(--Secondary-Secondary500, #C33241);
+text-align: center;
+font-family: Nohemi;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 76.8px */
+}
