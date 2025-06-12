@@ -120,6 +120,23 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+    
+
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    transition: all 0.3s ease;
+    background-color: #1DAA7E;
+
+}
+
 
 
 

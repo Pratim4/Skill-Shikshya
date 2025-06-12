@@ -305,6 +305,7 @@ transition: ease-in-out 1.5s;
     opacity: 0;
     transition: ease-in-out opacity 0.8s;
     animation: click 2s linear infinite ;
+    z-index: 17;
 
 
 }
@@ -329,7 +330,32 @@ font-weight: 400;
 line-height: normal;
 }
 
+@keyframes tChange1
+    {
+        0%{
+            transform: translate(0%);
 
+        }
+        10%{
+            transform: translateY(-38px);
+        }
+        33.33%
+        {
+            transform: translateY(-38px);
+
+        }
+        43.33%{
+            transform: translateY(-76px);
+        }
+        66.67%{
+            transform: translateY(-76px);
+
+        }
+        77%{
+            transform: translate(0%);
+        }
+        
+    }
 
 
 

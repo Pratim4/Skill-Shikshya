@@ -31,7 +31,12 @@
         <div class="nav-menu">
             <img src="/Images/logo.svg" alt="logo" class="logo">
             <div class="nav">
-                <ul class="navlist">
+                 <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+                <ul class="navlist" id="navlist">
                     <li>About</li>
                     <li>Course</li>
                     <li>Success Stories</li>
@@ -175,7 +180,7 @@
                                 <div class="icontent">
                                     <div class="itext">
                                         <h4>Ashok Thapa Magar</h4>
-                                        <h3>Data Sccience Mentor</h3>
+                                        <h3>Data Science Mentor</h3>
                                     </div>
                                 </div>
 
@@ -370,7 +375,7 @@
 
                             <div class="card1"
                                 style="z-index: 1; transition: transform 0.3s ease-in, opacity 0.6s ease-in; transition-duration: 0.6s;">
-                                <img src="./Images/svgviewer-output (4).svg" alt="">
+                                <img src="./Images/svgviewer-output (4).svg" alt="" class="card1svg">
 
 
 
@@ -849,9 +854,9 @@
                                     </div>
                                     <div class="meet2" ">
                             <p>FAQs: Your <span>Burning Questioned Answered! 🤔</span></p>
-                        </div>
-                    </div>
-                    <div class=" mtm">
+                         </div>
+                            </div>
+                           <div class=" mtm">
                                         <button>View all FAQs</button>
                                         <img src="./Images/arrow-sm-right.svg" alt="" class="arrow1">
                                     </div>
@@ -1273,6 +1278,13 @@ cards.forEach((card, index) => {
         card.classList.add('active');
     });
 });
+const hamburger = document.getElementById('hamburger');
+const navlist = document.getElementById('navlist');
+
+hamburger.addEventListener('click', () => {
+    navlist.classList.toggle('active');
+});
+
 
 
 
