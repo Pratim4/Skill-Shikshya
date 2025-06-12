@@ -64,6 +64,9 @@ height: 461px;
 flex-shrink: 0;
 border-radius: 32px;
 background: var(--Secondary-Secondary500, #C33241);
+
+    transition: height 0.8s ease-in-out ;
+
 }
 .vac{
     display: inline-flex;
@@ -225,4 +228,42 @@ font-size: 64px;
 font-style: normal;
 font-weight: 700;
 line-height: 120%; /* 76.8px */
+}
+
+.t21{
+    transition: width 1s ease-in-out 0.5s;
+}
+
+.n23{
+    opacity: 0;
+    transition:opacity 1s ease-in-out 0.5s
+}
+.course-icon{
+      opacity: 0;
+    transition:opacity 2s ease-in-out 0.5s
+}
+
+
+.t21 {
+    transition: width 1s ease-in-out 0.5s;
+}
+
+.t21:not(.active) {
+    width: 296px;
+}
+
+.t21.active {
+    width: 592px;
+}
+
+.t21.active .t22 {
+    opacity: 0;
+}
+
+.t21.active .n23 {
+    opacity: 1;
+}
+
+.t21.active .course-icon {
+    opacity: 1;
 }

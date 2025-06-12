@@ -12,6 +12,7 @@ width: 1468px;
 flex-direction: column;
 align-items: center;
 gap: 42px;
+position: relative;
 
 }
 .par1 p{
@@ -54,8 +55,8 @@ flex-shrink: 0;
 background: #FAFAFA;
 filter: blur(40px);
 position: absolute;
-bottom: -290px;
-    left: -240px;
+top: 15px;
+left: -50px;
 
 }
 .rectangle1{
@@ -65,8 +66,9 @@ flex-shrink: 0;
 background: #FAFAFA;
 filter: blur(40px);
 position: absolute;
-bottom: -350px;
-    left: 1200px;
+top: 15px;
+right: -15px;
+
 }
 .company img:hover{
 filter: brightness(500%);

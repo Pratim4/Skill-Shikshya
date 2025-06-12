@@ -8,8 +8,10 @@
   flex-direction: column;
   align-items: center;
   gap: 140px;
-  overflow: visible;
+  /* overflow: visible; */
   z-index:1;
+  overflow: hidden;
+
 
 
 }
@@ -18,6 +20,7 @@
 #section1::before {
     content: "";
   position: absolute;
+  width: 1468px;
   inset: 0;
   background-image: url('./Images/BACKGROUND.png');
  
@@ -358,7 +361,8 @@ align-self: stretch;
 display: flex; 
 white-space: nowrap;
 width: 1372px;
-padding: 11.855px;
+
+/* padding: 11.855px; */
 justify-content: center; 
 align-items: center;
 gap: 47.421px;
